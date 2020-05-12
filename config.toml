@@ -1,0 +1,26 @@
+baseURL = "https://docdir.io/"
+languageCode = "en-us"
+title = "Docdir"
+canonifyurls = true
+hasCJKLanguage = true
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
+
+[params]
+    author = "Docdir"
+    # info = "DevSecOps Evangelist"
+    # description = '''
+    # "DevSecOps Evangelist" -
+    # This is my personal site.
+    # '''
+    keywords = "landing,document"
+    avatar = "avatar.png"
+    favicon = "favicon.png"
+    hideCredits = false
+    publicationYear = "2020"
+    listPageDateFormat = "January, 2006"
+    singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/cv.css","/css/all.min.css"]
+    primaryColor = "#007c7c"
+    textPrimaryColor = "#292929"
