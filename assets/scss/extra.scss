@@ -73,13 +73,6 @@ a {
 		padding: 30px 60px 100px;
 		box-shadow: 0 0 0 12px rgba(0,0,0,0.02) inset;
 		position: relative;
-		header {
-			position: absolute;
-			top: -50px;
-			left: -20px;
-			height: 400px;
-			width: 100%;
-		}
 	}
 }
 
@@ -108,10 +101,21 @@ a {
 	top: -15px;
 }
 
-.footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	line-height: 60px;
-	height: 80px;
+// .footer {
+// 	position: absolute;
+// 	bottom: 0;
+// 	width: 100%;
+// 	line-height: 60px;
+// 	height: 80px;
+// }
+
+.article {
+	p:first-letter {
+		float: left;
+		font-weight: bold;
+		// font-family: 'Open Sans', sans-serif;
+		font-size: 45px;
+		line-height: 1;
+		margin-right: 6px;
+	}
 }
